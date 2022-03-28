@@ -1,6 +1,6 @@
 #include<iostream>
-#include<conio.h>
 using namespace std;
+
 int main()
 {
     int *ptr=new int(500);      //assigned memory
@@ -10,9 +10,9 @@ int main()
 
     delete ptr;                 //deleted the memory
 
-    cout<<"New value at address ptr: "<<*ptr<<endl;
-    cout<<"New address of ptr: "<<ptr<<endl;
+    //cout<<"New value at address ptr: "<<*ptr<<endl;
+    //cout<<"New address of ptr: "<<ptr<<endl;
 
-    getch();
+    
     return 0;
 }
